@@ -129,6 +129,7 @@
     <Compile Include="Editor\Plugins\FindPlanteraBulbPlugin.cs" />
     <Compile Include="Editor\Plugins\IPlugin.cs" />
     <Compile Include="Editor\Plugins\PerlinNoise.cs" />
+    <Compile Include="Editor\Plugins\PluginLoader.cs" />
     <Compile Include="Editor\Plugins\RemoveAllChestsPlugin.cs" />
     <Compile Include="Editor\Plugins\RemoveAllUnlockedChestsPlugin.cs" />
     <Compile Include="Editor\Plugins\ReplaceAllPlugin.cs" />
@@ -557,7 +558,7 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties BuildVersion_UseGlobalSettings="True" BuildVersion_AssemblyInfoFilename="Properties\AssemblyInfo.cs" />
+      <UserProperties BuildVersion_AssemblyInfoFilename="Properties\AssemblyInfo.cs" BuildVersion_UseGlobalSettings="True" />
     </VisualStudio>
   </ProjectExtensions>
   <PropertyGroup>
